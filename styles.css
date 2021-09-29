@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colors =====*/
+/*===== Colores =====*/
 :root{
   --first-color: rgb(244, 145, 64);
   --second-color: #0E2431;
 }
 
-/*===== Sources and typo =====*/
+/*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margins =====*/
+/*===== Margenes =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -46,21 +46,6 @@
 }
 
 /*===== BASE =====*/
-
-body::-webkit-scrollbar {
-    width: 12px; /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #fff; /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--second-color); /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
-    border: 3px solid #fff; /* creates padding around scroll thumb */
-  }
-
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -131,8 +116,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: rgba(255,255,255,0.5);
-  backdrop-filter: blur(8px);
+  background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -152,7 +136,8 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgba(14, 36, 49, 0.9);
+    backdrop-filter: blur(8px);
     transition: .5s;
   }
 }
