@@ -220,6 +220,10 @@ img{
   width: 295px;
 }
 
+.home__img img{
+  border-radius: .5rem;
+}
+
 /*BUTTONS*/
 .button{
   display: inline-block;
